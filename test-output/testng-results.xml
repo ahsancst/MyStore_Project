@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyStore" duration-ms="44554" started-at="2018-07-02T18:39:22Z" finished-at="2018-07-02T18:40:07Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="44554" started-at="2018-07-02T18:39:22Z" finished-at="2018-07-02T18:40:07Z">
+      <class name="com.ahsan.selenium.Test.TC_UM003">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.ahsan.selenium.Test.TC_UM003@26be92ad]" name="testSetUp" is-config="true" duration-ms="16757" started-at="2018-07-03T00:09:22Z" finished-at="2018-07-03T00:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="loginMethod()[pri:0, instance:com.ahsan.selenium.Test.TC_UM003@26be92ad]" name="loginMethod" is-config="true" duration-ms="22641" started-at="2018-07-03T00:09:39Z" depends-on-methods="com.ahsan.selenium.Test.BaseTestScript.testSetUp" finished-at="2018-07-03T00:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="TC_001()[pri:0, instance:com.ahsan.selenium.Test.TC_UM003@26be92ad]" name="TC_001" duration-ms="2338" started-at="2018-07-03T00:10:01Z" finished-at="2018-07-03T00:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.ahsan.selenium.Test.TC_UM003@26be92ad]" name="logout" is-config="true" duration-ms="2001" started-at="2018-07-03T00:10:04Z" finished-at="2018-07-03T00:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ahsan.selenium.Test.TC_UM003@26be92ad]" name="tearDown" is-config="true" duration-ms="781" started-at="2018-07-03T00:10:06Z" finished-at="2018-07-03T00:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ahsan.selenium.Test.TC_UM003 -->
+    </test> <!-- Login -->
+  </suite> <!-- MyStore -->
+</testng-results>
